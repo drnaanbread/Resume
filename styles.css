@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+    font-family: 'Arial';
+    display: flex;
+    margin-left: 15%;
+}
+.container {
+    width: 70%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+.left {
+    background-color: lightblue;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    width: 40%;
+}
+.left .section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.right .section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    font-family: 'Arial Narrow Bold';
+    padding-left: 10px;
+}
+h2 {
+    padding-left: 10px;
+}
+h3 {
+    font-family: 'Arial Narraw Bold';
+}
